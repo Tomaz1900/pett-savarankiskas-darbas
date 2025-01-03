@@ -1,0 +1,21 @@
+:root{
+    --white: #FFFFFF;
+    --red: linear-gradient(121.06deg, #FD653D 28.54%, #FF4167 68.18%);
+    --purple: linear-gradient(63.04deg, #040006 -2.05%, #62005F 112.81%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.background{
+    width: 100%;
+    background: var(--purple);
+    max-height: 832px;
+}
