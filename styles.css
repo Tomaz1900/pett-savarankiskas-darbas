@@ -2,7 +2,9 @@
     --white: #FFFFFF;
     --red: linear-gradient(121.06deg, #FD653D 28.54%, #FF4167 68.18%);
     --purple: linear-gradient(63.04deg, #040006 -2.05%, #62005F 112.81%);
+    
 }
+
 
 *{
     margin: 0;
@@ -17,5 +19,115 @@
 .background{
     width: 100%;
     background: var(--purple);
-    max-height: 832px;
+   height: 800px;
+    overflow-x: hidden;
 }
+.top{ display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+   justify-content: center;
+   }
+   .imgcont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+   }
+   nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-right: 50px;
+    margin-top: 40px;
+    
+   }
+  nav ul li a{
+    color: var(--white);
+    font-size: 12px;
+    font-family: "Inter", serif;
+  }
+   
+   .contbtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+    padding-left: 100px;
+    font-family: in;
+    font-size: 12px ;
+    font-family: "Inter", serif;
+   }
+   
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 40px 100px 0 100px;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Inter", serif;
+}
+.petty{
+    color: var(--white);
+   }
+.hero{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    container-type: inline-size;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    gap: 20px;
+    padding: 35px 20px;
+    font-style: normal;
+}
+.hero_text{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left:50px;
+}
+.hero_text .greetings{
+color: #FF4167;
+font-weight: 600;
+font-size: 18px;
+}
+.title{
+    font-weight: 300;
+    font-size: 52px;
+    color: var(--white);    
+}
+.title_red{
+    font-weight: 800;
+    font-size: 52px;
+    color: #FF4167;
+} 
+.description p{
+    font-weight: 400;
+    font: size 16px;
+    color:white;
+}
+.hero_img{
+    
+    max-width: 600px;
+    flex-grow: 1;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    background-image: url(./asets/background.svg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.hero_img img{
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    }
+
